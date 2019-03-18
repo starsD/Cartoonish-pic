@@ -59,7 +59,7 @@ B-->|重复|B
 
 ![](https://github.com/starsD/Cartoonish-pic/blob/master/examples/test_2_result.jpg?raw=true)
 
-####其他
+#### 其他
 
 本工程的GUI通过*eric6+qtdesinger*生成 *CartooningGui.ui*文件，编译后成为*Ui_CartooningGui.py*。*Cartoonish.py*文件包含事件处理与照片卡通化的处理。可以通过*eric6+qtdesinger*对UI重制与修改。
 
