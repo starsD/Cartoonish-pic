@@ -24,23 +24,7 @@ python Cartoonish.py
 
 #### 流程图
 
-```mermaid
-
-graph TD
-
-A[下采样] -->B(上采样)
-A-->|重复|A
-    B -->|减少细节|C(高斯双边滤波/均值漂移滤波)
-B-->|重复|B
-    C -->|图像色彩平滑|D(灰度化)
-    D --> H(中值滤波)
-    H -->E(边缘检测 获取轮廓)
-    E -->|合并|F(图像合并)
-    C -->|合并|F
-    F -->G(输出结果)
-
-
-```
+![](http://mystore0716.oss-cn-hangzhou.aliyuncs.com/pic/python_doc_pic/cartoonish-flow.jpg?raw=true)
 
 #### 参数说明
 
